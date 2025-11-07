@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+}
+
+.navbar-nav.ms-auto {
+    margin-left: auto !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #00e0ff);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.btn-primary:hover {
+    background: linear-gradient(45deg, #00e0ff, #007bff);
+    transform: scale(1.05);
+}
+.btn-outline-primary {
+    border: 2px solid #00e0ff;
+    color: #00e0ff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.btn-outline-primary:hover {
+    background: #00e0ff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+/* Courses Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.site-footer {
+    background: #0a0a0a;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    font-size: 0.9rem;
+}
+.site-footer h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.site-footer ul li {
+    margin-bottom: 8px;
+    color: #cccccc;
+    transition: 0.2s;
+}
+.site-footer ul li:hover {
+    color: #00e0ff;
+    cursor: pointer;
+}
